@@ -1091,14 +1091,45 @@ footer .wrapper { text-align: center; }
 @keyframes float {
   0% {
     
-    transform: translatey(0px) translatex(250px) scale(0.7) rotate(0deg);
+    transform: translatey(-20px) translatex(300px) scale(0.7) rotate(0deg);
   }
   50% {
     
-    transform: translatey(-20px) translatex(245px) scale(0.7) rotate(10deg);
+    transform: translatey(-40px) translatex(290px) scale(0.7) rotate(10deg);
   }
   100% {
     
-    transform: translatey(0px) translatex(250px) scale(0.7) rotate(0deg);
+    transform: translatey(-20px) translatex(300px) scale(0.7) rotate(0deg);
   }
 }
+
+.cardImg{
+  transform: scale(0.7) rotate(160deg) ;
+  
+  top: 5%;
+  right: 13%;
+  animation: float2 12s ease-in-out infinite;
+}
+.meteor{
+  
+  transform: scale(0.7) rotate(160deg) ;
+  width: 500px;
+  
+  animation: float2 12s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0% {
+    
+    transform: translatey(-0px) translatex(1px) scale(0.7) rotate(0deg);
+  }
+  50% {
+    
+    transform: translatey(-5px) translatex(5px) scale(0.7) rotate(10deg);
+  }
+  100% {
+    
+    transform: translatey(-0px) translatex(1px) scale(0.7) rotate(0deg);
+  }
+}
+
