@@ -111,7 +111,7 @@ html {
   font-family: "Inter", sans-serif;
   font-size: var(--fs-base); /* base font-size (0.85rem = 13.6px) */
   line-height: 1.8;
-  background-image: url("../images/fondoEstrellas.jpg");
+  background-image: url("https://i.ibb.co/9G4G9QC/download.gif");
   background-attachment: fixed;
   background-size: cover;
 }
