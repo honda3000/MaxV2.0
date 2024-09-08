@@ -189,9 +189,9 @@ html {
 \*-----------------------------------*/
 
 .container {
-  margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
-  padding: 0 15px;
+  margin-inline: 2px;
+  margin: 20px; /* fallback for margin-inline */
+  
   width: 100%;
 }
 
@@ -1260,7 +1260,8 @@ height: 700px;
     box-shadow: 0 20px 50px rgb(23, 32, 90);
     border: 2px solid #2a3cad;
     color: white;
-    padding: 20px;
+    padding:10px;
+    width: 800px;
 }
 
 
@@ -1342,17 +1343,31 @@ height: 700px;
 
 .cards_item {
   display: flex;
-  padding: 1rem;
+  
 }
 
 .cardImg{
-  transform: scale(0.7) rotate(160deg) ;
-  
+  transform:  scale(0.7) rotate(160deg) ;
+  width: 80%;
   top: 5%;
   right: 13%;
-  animation: float2 12s ease-in-out infinite;
+  animation: float3 12s ease-in-out infinite;
   position: relative;
-  z-index: 4;
+  
+}
+@keyframes float3 {
+  0% {
+    
+    transform: translatey(-20px) translatex(1px) scale(0.7) rotate(0deg);
+  }
+  50% {
+    
+    transform: translatey(-25px) translatex(5px) scale(0.7) rotate(10deg);
+  }
+  100% {
+    
+    transform: translatey(-20px) translatex(1px) scale(0.7) rotate(0deg);
+  }
 }
 
 
@@ -1367,6 +1382,7 @@ height: 700px;
 
 .card_content {
   padding: 1rem;
+  margin: 5%;
   background: linear-gradient(to bottom left, #51a8bb 40%, #187d86 100%);
 }
 
