@@ -189,8 +189,10 @@ html {
 \*-----------------------------------*/
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
   margin-inline: auto;
-  margin: 3%; /* fallback for margin-inline */
+  margin-left: 5%; /* fallback for margin-inline */
   
   width: 100%;
 }
@@ -1262,6 +1264,7 @@ height: 700px;
     color: white;
     padding:10px;
     width: 800px;
+    flex: 70px;
 }
 
 
