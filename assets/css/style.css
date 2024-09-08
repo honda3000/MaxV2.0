@@ -189,8 +189,8 @@ html {
 \*-----------------------------------*/
 
 .container {
-  margin-inline: 2px;
-  margin: 20px; /* fallback for margin-inline */
+  margin-inline: auto;
+  margin: 3%; /* fallback for margin-inline */
   
   width: 100%;
 }
