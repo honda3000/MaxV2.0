@@ -189,8 +189,7 @@ html {
 \*-----------------------------------*/
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  
   margin-inline: auto;
   margin-left: 5%; /* fallback for margin-inline */
   
@@ -1527,8 +1526,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 }
 
 .contenedorMain{
-  display: grid;
-  place-items: center,
+ align-items: center;
 
 
 }
