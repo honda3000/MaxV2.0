@@ -197,13 +197,12 @@ html {
   width: 100%;
 }
 .contenedorMain{
-  display:         flex;
-  justify-content: space-around;
-  align-items:     center;
-  margin-inline: auto;
+  display:        grid;
+  grid-template-columns: 2fr 1fr;
+  margin-inline:3%;
   margin-left: 5%; /* fallback for margin-inline */
-  
-  width: 100%;
+  margin-right: 5%;
+  width: 90%;
 }
 
 .container {
