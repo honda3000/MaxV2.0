@@ -198,7 +198,7 @@ html {
 }
 .contenedorMain{
   display:        grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   
   margin-left: 5%; /* fallback for margin-inline */
   margin-right: 5%;
@@ -398,7 +398,8 @@ header .btn-group {
   text-align: center;
 }
 
-.hero .right { display: none; }
+.hero .right { display: none; 
+margin-left: 20%;}
 
 
 
