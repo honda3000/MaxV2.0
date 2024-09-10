@@ -188,8 +188,8 @@ html {
   #REUSED STYLE
 \*-----------------------------------*/
 .contenedorHero{
-  display:         flex;
-  justify-content: space-between;
+  display:        grid;
+  grid-template-columns: 3fr 1fr;
   align-items:     center;
   margin-inline: auto;
   margin-left: 5%; /* fallback for margin-inline */
@@ -199,7 +199,7 @@ html {
 .contenedorMain{
   display:        grid;
   grid-template-columns: 3fr 1fr;
-  margin-inline:3%;
+  
   margin-left: 5%; /* fallback for margin-inline */
   margin-right: 5%;
   width: 90%;
