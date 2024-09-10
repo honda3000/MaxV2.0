@@ -187,10 +187,27 @@ html {
 /*-----------------------------------*\ 
   #REUSED STYLE
 \*-----------------------------------*/
+.contenedorHero{
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  margin-inline: auto;
+  margin-left: 5%; /* fallback for margin-inline */
+  
+  width: 100%;
+}
+.contenedorMain{
+  display:         flex;
+  justify-content: space-around;
+  align-items:     center;
+  margin-inline: auto;
+  margin-left: 5%; /* fallback for margin-inline */
+  
+  width: 100%;
+}
 
 .container {
-  display: grid;
-  place-items: center;
+  
   margin-inline: auto;
   margin-left: 5%; /* fallback for margin-inline */
   
@@ -259,7 +276,7 @@ header .flex-wrapper { display: none; }
 
 .navbar {
   display:         flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:     center;
   gap: 15px;
   padding: 15px 0;
@@ -1526,9 +1543,5 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   width: 50px;
 }
 
-.contenedorMain{
- align-items: center;
- 
 
-}
 
