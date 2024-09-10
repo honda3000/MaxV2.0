@@ -1297,7 +1297,7 @@ height: 700px;
     color: white;
     padding:10px;
     width: 800px;
-    flex: 70px;
+    
     animation: bordee 6s ease-in-out infinite;
 }
 
