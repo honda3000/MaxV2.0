@@ -962,13 +962,28 @@ footer .wrapper { text-align: center; }
     background: #090d27a6;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    
     border: 2px solid #2a3cad;
     color: white;
     padding: 20px;
+    animation: bordee 6s ease-in-out infinite;
     
     
     
+}
+@keyframes bordee {
+  0% {
+    
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+  }
+  50% {
+    
+    box-shadow: 20px 70px 100px rgb(23, 32, 90);
+  }
+  100% {
+    
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+  }
 }
 
   .topic-btn {
@@ -1260,12 +1275,13 @@ height: 700px;
   background: #090d27a6;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    
     border: 2px solid #2a3cad;
     color: white;
     padding:10px;
     width: 800px;
     flex: 70px;
+    animation: bordee 6s ease-in-out infinite;
 }
 
 
