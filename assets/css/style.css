@@ -1298,8 +1298,8 @@ height: 700px;
     border: 2px solid #2a3cad;
     color: white;
     padding:10px;
-    width: 100%;
-    margin-right: 2%;
+    width: 95%;
+    margin-right: 3%;
     
     animation: bordee 6s ease-in-out infinite;
 }
